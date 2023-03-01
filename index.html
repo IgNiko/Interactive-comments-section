@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+  <main class="block">
+    <section class="container">
+      <article class="comment">
+        <div class="comment__voting">
+          <a class="plus__btn" href="#"><img src="./img/icon-plus.svg" alt="plus-btn"></a>
+          <div class="voting__counter"><span>12</span></div>
+          <a class="minus__btn" href="#"><img src="./img/icon-minus.svg" alt="minus-btn"></a>
+        </div>
+        <div class="comment__body">
+          <div class="comment__header">
+            <div class="profile"><a class="name" href="#"><img src="./img/amy.png" alt="amyrobson">
+                <p class="username">amyrobson</p>
+              </a>
+              <p class="comment__posted-time">1 month ago</p>
+            </div>
+            <a class="reply-btn" href="#"><img src="./img/icon-reply.svg" alt="Reply">Reply</a>
+          </div>
+          <div class="comment__content">Impressive! Though it seems the drag feature could be improved. But overall
+            it<br>
+            looks incredible. You’ve nailed the design and the responsiveness at various breakpoints works really well.
+          </div>
+        </div>
+      </article>
+
+      <article class="comment">
+        <div class="comment__voting">
+          <a class="plus__btn" href="#"><img src="./img/icon-plus.svg" alt="plus-btn"></a>
+          <div class="voting__counter"><span>5</span></div>
+          <a class="minus__btn" href="#"><img src="./img/icon-minus.svg" alt="minus-btn"></a>
+        </div>
+        <div class="comment__body">
+          <div class="comment__header">
+            <div class="profile"><a class="name" href="#"><img src="./img/max.png" alt="maxblagun">
+                <p class="username">maxblagun</p>
+              </a>
+              <p class="comment__posted-time">2 weeks ago</p>
+            </div>
+            <a class="reply-btn" href="#"><img src="./img/icon-reply.svg" alt="Reply">Reply</a>
+          </div>
+          <div class="comment__content">Woah, your project looks awesome! How long have you been coding for? I’m
+            still<br>
+            new, but think I want to dive into React as well soon. Perhaps you can give me an insight on where I can
+            learn React? Thanks!
+          </div>
+        </div>
+      </article>
+
+      <section class="reply-container">
+        <article class="comment">
+          <div class="comment__voting">
+            <a class="plus__btn" href="#"><img src="./img/icon-plus.svg" alt="plus-btn"></a>
+            <div class="voting__counter">
+              <span>4</span>
+            </div>
+            <a class="minus__btn" href="#"><img src="./img/icon-minus.svg" alt="minus-btn"></a>
+          </div>
+          <div class="comment__body">
+            <div class="comment__header">
+              <div class="profile"><a class="name" href="#"><img src="./img/ramses.png" alt="ramsesmiron">
+                  <p class="username">ramsesmiron</p>
+                </a>
+                <p class="comment__posted-time">1 week ago</p>
+              </div>
+              <a class="reply-btn" href="#"><img src="./img/icon-reply.svg" alt="Reply">Reply</a>
+            </div>
+            <div class="comment__content"><a class="email" href="#">@maxblagun</a> If you’re still new, I’d recommend
+              focusing on the fundamentals of
+              HTML, CSS, and JS before considering React. It’s very tempting to jump ahead but lay a solid foundation
+              first.
+            </div>
+          </div>
+        </article>
+
+        <article class="comment">
+          <div class="comment__voting">
+            <a class="plus__btn" href="#"><img src="./img/icon-plus.svg" alt="plus-btn"></a>
+            <div class="voting__counter">
+              <span>2</span>
+            </div>
+            <a class="minus__btn" href="#"><img src="./img/icon-minus.svg" alt="minus-btn"></a>
+          </div>
+          <div class="comment__body">
+            <div class="comment__header">
+              <div class="profile"><a class="name" href="#"><img src="./img/julius.png" alt="juliusomo">
+                  <p class="username">juliusomo</p>
+                </a>
+                <btn class="you" href="#"><a class="btn" href="#">you</a></btn>
+                <p class="comment__posted-time">2 days ago</p>
+              </div>
+              <div class="edit">
+                <a class="delete-btn" href="#"><img src="./img/icon-delete.svg" alt="Delete">Delete</a>
+                <a class="edit-btn" href="#"><img src="./img/icon-edit.svg" alt="Edit">Edit</a>
+              </div>
+            </div>
+            <div class="comment__content"><a class="email" href="#">@ramsesmiron</a> I couldn’t agree more with this.
+              Everything moves so fast and it
+              always seems like everyone knows the newest library/<br>framework. But the fundamentals are what stay
+              constant.
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <article class="comment">
+        <div class="profile"><a class="name__send" href="#"><img src="./img/julius.png" alt="juliusomo"></a>
+        <textarea class="comment__input" placeholder="Add a comment..."></textarea>
+        <btn class="send" href="#"><a class="btn" href="#">Send</a></btn></div>
+      </article>
+      <section class="container">
+
+      </section>
+    </section>
+  </main>
+</body>
+
+</html>
