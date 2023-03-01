@@ -28,7 +28,6 @@ body {
 
 a {
   text-decoration: none;
-  color: #fff;
 }
 
 .container {
@@ -146,8 +145,8 @@ span {
   font-weight: 500;
   font-size: 13px;
   line-height: 15px;
-  color: #FFFFFF;
-  background: #5357B6;
+  background: #5357b6;
+  color: #fff;
   border-radius: 2px;
   padding: 3px 6px;
 }
@@ -163,6 +162,7 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  color: #5357B6;
 }
 
 .reply-container {
@@ -182,9 +182,11 @@ span {
   line-height: 24px;
   text-transform: uppercase;
   background: #5357B6;
+  color: #fff;
   border-radius: 8px;
   padding: 12px 32px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 .name__send {
